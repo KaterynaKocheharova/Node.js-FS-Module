@@ -1,7 +1,7 @@
 import { PATH_DB } from '../constants/contacts.js';
 import fs from 'fs/promises';
 
-// Перевірити роботу функції можна виконавши команду npm run get-all, яка буде виконувати код у файлі src/scripts/getAllContacts.js.
+// npm run get-all
 
 export const getAllContacts = async () => {
   try {
