@@ -2,6 +2,8 @@ import { PATH_DB } from '../constants/contacts.js';
 import fs from 'fs/promises';
 import { createFakeContact } from '../utils/createFakeContact.js';
 
+// Перевірити роботу функції можна виконавши команду npm run generate
+
 const generateContacts = async (number) => {
   const newContacts = [];
   for (let i = 0; i < number; i++) {

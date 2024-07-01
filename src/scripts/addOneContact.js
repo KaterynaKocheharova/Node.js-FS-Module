@@ -2,6 +2,8 @@ import fs from 'fs/promises';
 import { PATH_DB } from '../constants/contacts.js';
 import { createFakeContact } from '../utils/createFakeContact.js';
 
+// Перевірити роботу функції можна виконавши команду npm run add-one
+
 export const addOneContact = async () => {
   const newContact = createFakeContact();
   console.log(newContact);
